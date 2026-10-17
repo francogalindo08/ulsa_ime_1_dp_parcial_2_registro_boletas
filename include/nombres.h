@@ -12,6 +12,7 @@ inline void RegistrarAlumno(std::string alumnos[], double esp[], double mat[], d
         std::cout << "La lista está llena (6 alumnos).\n";
         return;
     }
+            std::cout << "--- CAPTURA ALUMNOS ---\n";
 
     
    alumnos[total] = leerCadena("nombre: ");
@@ -21,7 +22,7 @@ inline void RegistrarAlumno(std::string alumnos[], double esp[], double mat[], d
     double *califs[3] = {&esp[total], &mat[total], &dp[total]};
 
     for (int i = 0; i < 3; i++) {
-        
+
  *califs[i]=leerDecimal(materias[i] + ", ");
  if (*califs[i] < 0 || *califs[i] > 10) {
     std:: cout << "solo acepta hasta 10 gg\n";
