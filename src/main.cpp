@@ -18,6 +18,7 @@ using namespace std;
 #include "utilerias.h"
 #include "estadisticas.h"
 #include "nombres.h"
+#include "BPA.h"
 // #include de los .h de tus companeros (uno por reporte y la captura)
 
 void mostrarMenu() {
@@ -38,6 +39,7 @@ int main() {
     double matematicas[MAX_ALUMNOS];
     double disenoProgramas[MAX_ALUMNOS];
     int total = 0;
+
 
     const int OPCION_SALIR = 7;
     int opcion;
@@ -63,7 +65,23 @@ int main() {
                 // reporte del companero
                 break;
             case 5:
-                // reporte del companero
+             {
+                    std::cout << "--- boleta individual ---\n";
+
+    std::string nombre = leerCadena("Ingresa el nombre del alumno: ");
+    int pos = BuscarAlumno(nombre, nombres, total);
+
+    if (pos != -1) {
+        std::cout << "Alumno: " << nombres[pos] << "\n";
+        std::cout << "Español: " << espanol[pos] << "\n";
+        std::cout << "Matemáticas: " << matematicas[pos] << "\n";
+        std::cout << "Diseño de Programas: " << disenoProgramas[pos] << "\n";
+    } else {
+        std::cout << "Alumno no encontrado.\n";
+    }
+    break;
+}
+// reporte del companero
                 break;
             case 6:
                 // reporte del companero

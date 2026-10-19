@@ -9,7 +9,11 @@
 #include <iostream>
 #include <string>
 
-
+std::string Alumnos[6];
+double espanol[6];
+double matematicas[6];
+double disenoProgramas[6];
+int total = 0;
 int BuscarAlumno(std::string nombre, std::string Alumnos[], int tam)
 {
     for (int i = 0; i < tam; i++)
