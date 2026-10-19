@@ -18,6 +18,7 @@ using namespace std;
 #include "utilerias.h"
 #include "estadisticas.h"
 #include "nombres.h"
+#include "Aprovados.h"
 // #include de los .h de tus companeros (uno por reporte y la captura)
 
 void mostrarMenu() {
@@ -60,8 +61,26 @@ int main() {
                 estadisticasPorMateria(nombres, espanol, matematicas, disenoProgramas, total);
                 break;
             case 4:
-                // reporte del companero
-                break;
+             {
+    system("cls");
+    std::cout << "\n===== LISTA DE APROBADOS Y REPROBADOS =====\n\n";
+
+    for (int i = 0; i < total; i++) {
+        // Calculamos el promedio del alumno con las tres materias que ya usas en tu proyecto
+        float prom = (espanol[i] + matematicas[i] + disenoProgramas[i]) / 3.0f;
+
+        std::cout << "Alumno: " << nombres[i] << std::endl;
+        std::cout << "Promedio: " << prom << std::endl;
+        std::cout << "Estado: " << obtenerEstado(prom) << std::endl;
+        std::cout << "-----------------------------------" << std::endl;
+    }
+
+    std::cout << "\nPresione Enter para continuar...";
+    std::cin.ignore();
+    std::cin.get();
+    break;
+}
+            
             case 5:
                 // reporte del companero
                 break;
