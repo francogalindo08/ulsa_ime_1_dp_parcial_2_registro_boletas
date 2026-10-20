@@ -103,7 +103,6 @@ int main() {
     }
     break;
 }
-// reporte del companero
                 break;
             case 6:
                 reporteMateriasReprobadas(nombres, espanol, matematicas, disenoProgramas, total);
