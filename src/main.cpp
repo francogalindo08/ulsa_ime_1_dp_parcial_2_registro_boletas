@@ -21,6 +21,7 @@ using namespace std;
 #include "Aprobados.h"
 #include "BPA.h"
 #include "reprobadas.h"
+#include "honor.h"
 
 
 // #include de los .h de tus companeros (uno por reporte y la captura)
@@ -33,7 +34,8 @@ void mostrarMenu() {
               << "4. Aprobados y reprobados\n"
               << "5. Boleta individual\n"
               << "6. Materias reprobadas por alumno\n"
-              << "7. Salir\n";
+              << "7. Cuadro de honor\n"
+              << "8. Salir\n";
 }
 
 int main() {
@@ -45,7 +47,7 @@ int main() {
     int total = 0;
 
 
-    const int OPCION_SALIR = 7;
+    const int OPCION_SALIR = 8;
     int opcion;
 
     do {
@@ -90,10 +92,12 @@ int main() {
     }
     break;
 }
-// reporte del companero
                 break;
             case 6:
                 reporteMateriasReprobadas(nombres, espanol, matematicas, disenoProgramas, total);
+                break;
+            case 7:
+                cuadroDeHonor(nombres, espanol, matematicas, disenoProgramas, total);
                 break;
             case OPCION_SALIR:
                 std::cout << "Hasta luego.\n";
