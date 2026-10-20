@@ -25,7 +25,7 @@ inline void RegistrarAlumno(std::string alumnos[], double esp[], double mat[], d
 
  *califs[i]=leerDecimal(materias[i] + ", ");
  if (*califs[i] < 0 || *califs[i] > 10) {
-    std:: cout << "solo acepta hasta 10 gg\n";
+    std:: cout << "solo acepta numeros de entre 0 a 10\n";
         return;
  }
     }
