@@ -20,6 +20,8 @@ using namespace std;
 #include "nombres.h"
 #include "Aprovados.h"
 #include "BPA.h"
+#include "reprobadas.h"
+
 
 // #include de los .h de tus companeros (uno por reporte y la captura)
 
@@ -104,7 +106,7 @@ int main() {
 // reporte del companero
                 break;
             case 6:
-                // reporte del companero
+                reporteMateriasReprobadas(nombres, espanol, matematicas, disenoProgramas, total);
                 break;
             case OPCION_SALIR:
                 std::cout << "Hasta luego.\n";
