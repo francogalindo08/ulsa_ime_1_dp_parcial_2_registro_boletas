@@ -138,7 +138,8 @@ Sí, probé la receta a mano utilizando nombres y calificaciones de ejemplo para
 
 | # | Duda o error | Cómo lo resolví |
 | --- | --- | --- |
-| 1 | el uso del nombre de las materias marcando error | las declare con el nombre que tenian los demas archivos |
-| 2 | la impresion de mensajes | [puse el std ...] |
-| 3 |  los casos usando arreglo | me documentaba con el profesor  |
+| 1 | El compilador no reconocía RegistrarAlumno. | Revisé que el nombre de la función fuera igual en nombres.h, y main.cpp |
+| 2 | Los nombres con espacios no se guardaban completos.| Cambié cin por la función leerCadena() |
+| 3 | Apareció un error de redefinición de MAX_ALUMNOS. | Eliminé la constante duplicada y utilicé la que ya estaba definida en registro.h. |
+
 
