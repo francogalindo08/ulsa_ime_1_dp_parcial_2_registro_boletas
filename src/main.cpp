@@ -18,7 +18,7 @@ using namespace std;
 #include "utilerias.h"
 #include "estadisticas.h"
 #include "nombres.h"
-#include "Aprovados.h"
+#include "Aprobados.h"
 #include "BPA.h"
 #include "reprobadas.h"
 
@@ -67,24 +67,11 @@ int main() {
                 break;
             case 4:
              {
-    system("cls");
-    std::cout << "\n===== LISTA DE APROBADOS Y REPROBADOS =====\n\n";
+    
+                mostrarAprobadosReprobados(nombres, espanol, matematicas, disenoProgramas, total);
+                break;
+            }
 
-    for (int i = 0; i < total; i++) {
-        // Calculamos el promedio del alumno con las tres materias que ya usas en tu proyecto
-        float prom = (espanol[i] + matematicas[i] + disenoProgramas[i]) / 3.0f;
-
-        std::cout << "Alumno: " << nombres[i] << std::endl;
-        std::cout << "Promedio: " << prom << std::endl;
-        std::cout << "Estado: " << obtenerEstado(prom) << std::endl;
-        std::cout << "-----------------------------------" << std::endl;
-    }
-
-    std::cout << "\nPresione Enter para continuar...";
-    std::cin.ignore();
-    std::cin.get();
-    break;
-}
             
             case 5:
              {
