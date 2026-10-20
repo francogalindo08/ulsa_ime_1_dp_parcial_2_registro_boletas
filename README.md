@@ -6,7 +6,7 @@
 
 | Bloque | Matrícula | Nombre | Usuario de GitHub | Opción elegida |
 | --- | --- | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] |Matias Borrego | matiasborregoflores012 | Captura |
+| 1 | 26077|Matias Borrego | matiasborregoflores012 | Captura |
 | 2 | [Inserta aquí tu respuesta] | Romeo Ramos| romeoramos-ctrl | lista de alumnos  |
 | 3 | [Inserta aquí tu respuesta] | Fatima orozco | fatimaorz | estadisticas por materia|
 | 4 | [Inserta aquí tu respuesta] | Diego Serrano | diegoserrano0103 | aprobados y reprobados |
