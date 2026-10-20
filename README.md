@@ -6,19 +6,25 @@
 
 | Bloque | Matrícula | Nombre | Usuario de GitHub | Opción elegida |
 | --- | --- | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Captura |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-
+| 1 | [Inserta aquí tu respuesta] |Matias Borrego | matiasborregoflores012 | Captura |
+| 2 | [Inserta aquí tu respuesta] | Romeo Ramos| romeoramos-ctrl | lista de alumnos  |
+| 3 | [Inserta aquí tu respuesta] | Fatima orozco | fatimaorz | estadisticas por materia|
+| 4 | [Inserta aquí tu respuesta] | Diego Serrano | diegoserrano0103 | aprobados y reprobados |
+| 5 |26079 | Franco galindo| francogalindo08| boleta por alumno
+| 6 | [Inserta aquí tu respuesta] | Andrés Galindo | andresgalindod-rgb | materias reprobadas por alumno|
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 
 ## 2. Opciones del menú
 
 Escriban las opciones del menú en el orden en que aparecen en el programa.
 
-[Inserta aquí tu respuesta]
+1. Capturar alumno
+2. Mostrar lista
+3. Estadisticas por materia
+4. Aprobados y reprobados
+5. Boleta individual
+6. Materias reprobadas por alumno
+7. Salir
 
 ## 3. Cómo compilar y ejecutar
 
