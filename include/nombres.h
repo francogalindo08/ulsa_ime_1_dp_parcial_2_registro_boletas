@@ -6,7 +6,7 @@ using namespace std;
 
 #include <string>
 
-
+const int NUM_MATERIAS = 3;
 inline void RegistrarAlumno(std::string alumnos[], double esp[], double mat[], double dp[], int &total) {
     if (total >= 6) {
         std::cout << "La lista está llena (6 alumnos).\n";
@@ -21,7 +21,7 @@ inline void RegistrarAlumno(std::string alumnos[], double esp[], double mat[], d
     std::string materias[3] = {"Español", "Matematicas", "Diseño de programas"};
     double *califs[3] = {&esp[total], &mat[total], &dp[total]};
 
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < NUM_MATERIAS; i++) {
 
  *califs[i]=leerDecimal(materias[i] + ", ");
  if (*califs[i] < 0 || *califs[i] > 10) {
