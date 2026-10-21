@@ -8,7 +8,7 @@
 | --- | --- | --- | --- | --- |
 | 1 | 26077|Matias Borrego | matiasborregoflores012 | Captura |
 | 2 | 26212| Romeo Ramos | romeoramos-ctrl | Cuadro de honor |
-| 3 | [Inserta aquí tu respuesta] | Fatima orozco | fatimaorz | estadisticas por materia|
+| 3 | 26081 | Fatima orozco | fatimaorz | estadisticas por materia|
 | 4 | [Inserta aquí tu respuesta] | Diego Serrano | diegoserrano0103 | aprobados y reprobados |
 | 5 |26079 | Franco galindo| francogalindo08| boleta por alumno
 | 6 | 26113 | Andrés Galindo | andresgalindod-rgb | materias reprobadas por alumno|
@@ -70,7 +70,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 | --- | --- | --- |
 | 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 3 | [Lista de 6 alumnos del escenario obligatorio] | [espanol:7.5 matematicas:7.0 diseno de programas 8.0 mas alta: diseño de programas mas baja:matematicas] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 6 | Calificaciones menores a 7.0 de los 6 alumnos de la sección 5: Luis reprueba Matemáticas (6); Marta, Español (6) y Matemáticas (5); Raul, Español (5) y Diseño de Programas (6). Ana, Jorge y Sofia aprueban todo. | `Luis: 1 materia`, `Marta: 2 materias`, `Raul: 2 materias` y `Alumnos con materias reprobadas: 3`. Con la lista vacía: `No hay alumnos registrados.` |
@@ -135,7 +135,7 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | --- | --- | --- |
 | 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 3 | [docs/26081/bloque.md] | [docs/mejoras/26081/mejoras.md] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [docs/26079] | [docs/26079/PLANTILLA_BLOQUE.md] |docs/26079/PLANTILLA_MEJORA copy.md
 | 6 | [docs/26113/bloque.md](docs/26113/bloque.md) | [docs/mejoras/26113/mejora.md](docs/mejoras/26113/mejora.md) |
