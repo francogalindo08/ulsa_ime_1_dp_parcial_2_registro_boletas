@@ -137,7 +137,7 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 5 | [docs/26079] | [docs/26079/PLANTILLA_BLOQUE.md] |docs/26079/PLANTILLA_MEJORA copy.md
 | 6 | [docs/26113/bloque.md](docs/26113/bloque.md) | [docs/mejoras/26113/mejora.md](docs/mejoras/26113/mejora.md) |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
