@@ -135,7 +135,7 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | --- | --- | --- |
 | 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 3 | [docs/26081/bloque.md](docs/26081/bloque.md) | [docs/mejoras/26081/mejora.md](docs/mejora/26081/mejoras.md) |
+| 3 | [docs/26081/bloque.md](docs/26081/bloque.md) | [docs/mejoras/26081/mejora.md](docs/mejoras/26081/mejora.md) |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [docs/26079] | [docs/26079/PLANTILLA_BLOQUE.md] |docs/26079/PLANTILLA_MEJORA copy.md
 | 6 | [docs/26113/bloque.md](docs/26113/bloque.md) | [docs/mejoras/26113/mejora.md](docs/mejoras/26113/mejora.md) |
