@@ -24,7 +24,8 @@ Escriban las opciones del menú en el orden en que aparecen en el programa.
 4. Aprobados y reprobados
 5. Boleta individual
 6. Materias reprobadas por alumno
-7. Salir
+7. Cuadro de honor
+8. Salir
 
 ## 3. Cómo compilar y ejecutar
 
@@ -37,7 +38,7 @@ g++ -Wall -Wextra -std=c++17 -Iinclude src/main.cpp -o boletas
 
 ## 4. Reglas del programa
  
-[- El programa muestra un menú de 7 opciones y se repite hasta que se elige 7 (Salir). Cualquier otro número muestra "Opcion invalida." y regresa al menú.
+[- El programa muestra un menú de 8 opciones y se repite hasta que se elige 8 (Salir). Cualquier otro número muestra "Opcion invalida." y regresa al menú.
 - Los datos se guardan en 4 arreglos paralelos (nombres, español, matemáticas y diseño de programas), declarados dentro de main, sin variables globales. La variable total cuenta los alumnos registrados y la capacidad máxima es MAX_ALUMNOS.
 - Cada alumno tiene 3 calificaciones: Español, Matemáticas y Diseño de Programas.
 - Una materia se considera aprobada si la calificación es mayor o igual a 7.0 (CALIFICACION_APROBATORIA, de registro.h). Un 7.0 cuenta como aprobado.
@@ -47,7 +48,8 @@ g++ -Wall -Wextra -std=c++17 -Iinclude src/main.cpp -o boletas
 - En las estadísticas, si dos materias empatan en el promedio más alto o más bajo, gana la primera en el orden Español, Matemáticas, Diseño de Programas.
 - Si no hay alumnos registrados (total = 0): estadísticas y materias reprobadas muestran "No hay alumnos registrados."; la opción 4 no lista a nadie; la boleta individual muestra "Alumno no encontrado."
 - Materias reprobadas por alumno (opción 6) cuenta como reprobada toda materia con calificación menor a 7.0. Solo muestra a los alumnos con al menos una materia reprobada, en el orden en que se capturaron. Si nadie reprueba, muestra "Ningun alumno tiene materias reprobadas."
-- Las estadísticas imprimen los promedios con 1 decimal.]
+- Las estadísticas imprimen los promedios con 1 decimal.
+- Cuadro de honor (opción 7): el promedio es la suma de las 3 calificaciones entre 3. Entra quien tenga promedio de 9.0 o más (UMBRAL_HONOR). Con 9.5 o más (UMBRAL_EXCELENCIA) su categoría es "Excelencia"; de 9.0 a menos de 9.5 es "Honor". Los alumnos aparecen en el orden en que se capturaron y los promedios se imprimen con 1 decimal. Si la lista está vacía muestra "No hay alumnos registrados."; si nadie llega a 9.0 muestra "Ningun alumno alcanzo el cuadro de honor."]
 
 ## 5. Datos del escenario
 
@@ -55,7 +57,7 @@ Los 6 alumnos que capturan en el escenario obligatorio.
 
 | # | Nombre | Español | Matemáticas | Diseño de Programas |
 | --- | --- | --- | --- | --- |
-| 1 | [ANA] | [9] | [7] | [10] |
+| 1 | [ANA] | [9] | [8] | [10] |
 | 2 | [LUIS] | [7] | [6] | [8] |
 | 3 | [MARTA] | [6] | [5] | [7] |
 | 4 | [JORGE] | [8] | [7] | [9] |
@@ -69,7 +71,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 | Bloque | Valores elegidos | Resultado esperado |
 | --- | --- | --- |
 | 1 | Ana (9,8,10), Luis (7,6,8), Marta (6,5,7), Jorge (8,7,9), Sofía (10,9,8), Raúl (5,7,6) |Los 6 alumnos y sus calificaciones quedan almacenados correctamente en los arreglos alumnos, espanol, matematicas y disenoProgramas. total = 6. |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 2 | Umbral 9.0 (Honor) y 9.5 (Excelencia). Promedios: Ana (9+8+10)/3 = 9.0, Luis 7.0, Marta 6.0, Jorge 8.0, Sofia (10+9+8)/3 = 9.0, Raul 6.0 | `Ana 9.0 Honor`, `Sofia 9.0 Honor` y `Alumnos en el cuadro de honor: 2`. Con la lista vacía: `No hay alumnos registrados.` |
 | 3 | [Lista de 6 alumnos del escenario obligatorio] | [espanol:7.5 matematicas:7.0 diseno de programas 8.0 mas alta: diseño de programas mas baja:matematicas] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
@@ -92,7 +94,7 @@ Receta en pseudocódigo del programa principal: el menú y cómo se conecta con 
     declarar matematicas[MAX_ALUMNOS]
     declarar disenoProgramas[MAX_ALUMNOS]
     total = 0
-    OPCION_SALIR = 7
+    OPCION_SALIR = 8
 
     REPETIR
         mostrar menu:
@@ -102,7 +104,8 @@ Receta en pseudocódigo del programa principal: el menú y cómo se conecta con 
             4. Reporte del companero
             5. Reporte del companero
             6. Reporte del companero
-            7. Salir
+            7. Cuadro de honor
+            8. Salir
 
         opcion = leerEntero("Opcion: ")
 
@@ -120,6 +123,8 @@ Receta en pseudocódigo del programa principal: el menú y cómo se conecta con 
             caso 6:
                 ejecutar reporte 6
             caso 7:
+                cuadroDeHonor(nombres, espanol, matematicas, disenoProgramas, total)
+            caso 8:
                 mostrar "Hasta luego."
             otro caso:
                 mostrar "Opcion invalida."
@@ -134,7 +139,7 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | Bloque | Documentación | Propuesta de mejora |
 | --- | --- | --- |
 | 1 | [docs/26077/bloque.md](docs/26077/bloque.md)| [docs/mejoras/26077/PLANTILLA_MEJORA.md](docs/mejoras/26077/PLANTILLA_MEJORA.md)|
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 2 | [docs/26212/bloque.md](docs/26212/bloque.md) | [docs/mejoras/26212/mejora.md](docs/mejoras/26212/mejora.md) |
 | 3 | [docs/26081/bloque.md](docs/26081/bloque.md) | [docs/mejoras/26081/mejora.md](docs/mejoras/26081/mejora.md) |
 | 4 | [docs/26248](docs/26248/Bloque.md) | [docs/mejoras/26248/Mejora.md](docs/mejoras/26248/Mejora.md) |
 | 5 | [docs/26079] | [docs/26079/PLANTILLA_BLOQUE.md] |docs/26079/PLANTILLA_MEJORA copy.md
@@ -146,4 +151,4 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
 Si cambiaron algo de la interfaz de `include/registro.h` (una constante, un parámetro, una función), expliquen qué cambiaron y por qué. Si no cambiaron nada, escriban "Sin cambios".
 
-[Inserta aquí tu respuesta]
+Sin cambios.
