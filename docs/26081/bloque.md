@@ -70,7 +70,8 @@ _EST: para que no choque con constantes de otros bloques al cuntar todo en main.
 
 **¿Qué casos de rechazo maneja tu bloque y qué mensaje muestra en cada uno?**
 
-- **Lista vacía** (`total == 0`): muestra `No hay alumnos registrados.` y regresa al menú con `return`. Sin esto se dividiria entre 0 al sacar el promedio
+-Lista vacía:
+(`total == 0`): muestra `No hay alumnos registrados.` y regresa al menú con `return`. Sin esto se dividiria entre 0 al sacar el promedio
 
 ## 5. Receta
 
@@ -115,5 +116,3 @@ Si dos materias empataban, gana la primera que aparece, porque uso < y > estrict
 | # | Duda o error | Cómo lo resolví |
 | --- | --- | --- |
 | 1 | ¿Mi bloque necesitaba el código de mis compañeros para funcionar? | No. Mi función recibe los cuatro arreglos y el total como parámetros, así que solo depende de `registro.h`. |
-| 2 | En la receta usé el nombre `NUM_MATERIAS`, que podía choco con constantes de otros bloques al juntar todos los `.h` en `main.cpp`| Le puse un nombre más específico: `NUM_MATERIAS_EST`. |
-
