@@ -1,13 +1,5 @@
 #pragma once
 
-// =====================================================
-// BLOQUE INDIVIDUAL: Cuadro de honor
-// Autor: Romeo Ramos (26212)
-//
-// Lista a los alumnos cuyo promedio es UMBRAL_HONOR o mas,
-// con su categoria (Excelencia u Honor), y cuenta cuantos son.
-// =====================================================
-
 #include <iostream>
 #include <iomanip>
 #include <string>
