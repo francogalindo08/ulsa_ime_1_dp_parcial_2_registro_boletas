@@ -1,13 +1,4 @@
 #pragma once
-
-// =====================================================
-// BLOQUE: Materias reprobadas por alumno
-// Responsable: Andres Galindo Davila (26113)
-//
-// Lista a los alumnos que reprueban al menos una materia
-// y cuantas reprueba cada uno.
-// =====================================================
-
 #include <string>
 #include <iostream>
 #include "registro.h"

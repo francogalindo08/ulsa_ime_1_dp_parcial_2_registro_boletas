@@ -11,7 +11,7 @@
 | 3 | [Inserta aquí tu respuesta] | Fatima orozco | fatimaorz | estadisticas por materia|
 | 4 | [Inserta aquí tu respuesta] | Diego Serrano | diegoserrano0103 | aprobados y reprobados |
 | 5 |26079 | Franco galindo| francogalindo08| boleta por alumno
-| 6 | [Inserta aquí tu respuesta] | Andrés Galindo | andresgalindod-rgb | materias reprobadas por alumno|
+| 6 | 26113 | Andrés Galindo | andresgalindod-rgb | materias reprobadas por alumno|
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 
 ## 2. Opciones del menú
@@ -46,6 +46,7 @@ g++ -Wall -Wextra -std=c++17 -Iinclude src/main.cpp -o boletas
 - La boleta individual (opción 5) busca el nombre con BuscarAlumno, que devuelve la posición o -1. Si devuelve -1 muestra "Alumno no encontrado." 
 - En las estadísticas, si dos materias empatan en el promedio más alto o más bajo, gana la primera en el orden Español, Matemáticas, Diseño de Programas.
 - Si no hay alumnos registrados (total = 0): estadísticas y materias reprobadas muestran "No hay alumnos registrados."; la opción 4 no lista a nadie; la boleta individual muestra "Alumno no encontrado."
+- Materias reprobadas por alumno (opción 6) cuenta como reprobada toda materia con calificación menor a 7.0. Solo muestra a los alumnos con al menos una materia reprobada, en el orden en que se capturaron. Si nadie reprueba, muestra "Ningun alumno tiene materias reprobadas."
 - Las estadísticas imprimen los promedios con 1 decimal.]
 
 ## 5. Datos del escenario
@@ -72,6 +73,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 6 | Calificaciones menores a 7.0 de los 6 alumnos de la sección 5: Luis reprueba Matemáticas (6); Marta, Español (6) y Matemáticas (5); Raul, Español (5) y Diseño de Programas (6). Ana, Jorge y Sofia aprueban todo. | `Luis: 1 materia`, `Marta: 2 materias`, `Raul: 2 materias` y `Alumnos con materias reprobadas: 3`. Con la lista vacía: `No hay alumnos registrados.` |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 
@@ -136,6 +138,7 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 6 | [docs/26113/bloque.md](docs/26113/bloque.md) | [docs/mejoras/26113/mejora.md](docs/mejoras/26113/mejora.md) |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
 
