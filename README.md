@@ -79,7 +79,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 
 **¿La salida del programa coincidió con el cálculo a mano? Si no, ¿qué corrigieron?**
 
-[Inserta aquí tu respuesta]
+[Sí, la salida del programa coincidió con el cálculo a mano.]
 
 ## 7. Receta del menú
 
