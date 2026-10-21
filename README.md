@@ -9,7 +9,7 @@
 | 1 | 26077|Matias Borrego | matiasborregoflores012 | Captura |
 | 2 | 26212| Romeo Ramos | romeoramos-ctrl | Cuadro de honor |
 | 3 | 26081 | Fatima orozco | fatimaorz | estadisticas por materia|
-| 4 | [Inserta aquí tu respuesta] | Diego Serrano | diegoserrano0103 | aprobados y reprobados |
+| 4 | 26248 | Diego Serrano | diegoserrano0103 | aprobados y reprobados |
 | 5 |26079 | Franco galindo| francogalindo08| boleta por alumno
 | 6 | 26113 | Andrés Galindo | andresgalindod-rgb | materias reprobadas por alumno|
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el bloque 6. -->
@@ -136,7 +136,7 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 | 1 | [docs/26077/bloque.md](docs/26077/bloque.md)| [docs/mejoras/26077/PLANTILLA_MEJORA.md](docs/mejoras/26077/PLANTILLA_MEJORA.md)|
 | 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 3 | [docs/26081/bloque.md](docs/26081/bloque.md) | [docs/mejoras/26081/mejora.md](docs/mejoras/26081/mejora.md) |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 4 | [docs/26248](docs/26248/Bloque.md) | [docs/mejoras/26248/Mejora.md](docs/mejoras/26248/Mejora.md) |
 | 5 | [docs/26079] | [docs/26079/PLANTILLA_BLOQUE.md] |docs/26079/PLANTILLA_MEJORA copy.md
 | 6 | [docs/26113/bloque.md](docs/26113/bloque.md) | [docs/mejoras/26113/mejora.md](docs/mejoras/26113/mejora.md) |
 
