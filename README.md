@@ -133,7 +133,7 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
 | Bloque | Documentación | Propuesta de mejora |
 | --- | --- | --- |
-| 1 | [docs/26077/bloque.md] | [docs/mejoras/26077/PLANTILLA_MEJORA.md] |
+| 1 | [docs/26077/bloque.md] (docs/26077/bloque.md)| [docs/mejoras/26077/PLANTILLA_MEJORA.md] |
 | 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 3 | [docs/26081/bloque.md](docs/26081/bloque.md) | [docs/mejoras/26081/mejora.md](docs/mejoras/26081/mejora.md) |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
