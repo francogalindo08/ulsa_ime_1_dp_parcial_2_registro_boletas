@@ -68,7 +68,7 @@ Predigan la salida del escenario antes de ejecutarlo. Una fila por bloque indivi
 
 | Bloque | Valores elegidos | Resultado esperado |
 | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 1 | Ana (9,8,10), Luis (7,6,8), Marta (6,5,7), Jorge (8,7,9), Sofía (10,9,8), Raúl (5,7,6) |Los 6 alumnos y sus calificaciones quedan almacenados correctamente en los arreglos alumnos, espanol, matematicas y disenoProgramas. total = 6. |
 | 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 | 3 | [Lista de 6 alumnos del escenario obligatorio] | [espanol:7.5 matematicas:7.0 diseno de programas 8.0 mas alta: diseño de programas mas baja:matematicas] |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
